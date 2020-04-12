@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(48,46,46,1);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+button {
+    background-color: #804941;
+    color: #FF9382;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-style: none;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+
+.wrapper {
+    position: absolute;
+	top: 50%;
+    left: 50%;
+    overflow: hidden;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+
+    padding: 30px;
+    border-radius: 10px;
+    
+    background-color: #1c1b1b;
+    color: #D1AFAA;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+#user-name {
+    background-color: #332e2b;
+    color: #D1AFAA;
+    border-style: none;
+    font-size: 18px;
+}
+
+.fa-sun {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.item {
+    margin: 10px;
+}
+
+.fukidashi {
+    opacity: 0;
+    background-color: #332e2b;
+    border-radius: 2px;
+    color: #804941;
+}
